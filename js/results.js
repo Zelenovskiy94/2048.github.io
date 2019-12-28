@@ -153,7 +153,7 @@ function LockGetReady(ResultH)
 
 function ErrorHandler(jqXHR,StatusStr,ErrorStr)
 {
-    alert(StatusStr+' '+ErrorStr + ": Ошибка сервера");
+  
 }
 
 function showRecordClassic(ResultH) {

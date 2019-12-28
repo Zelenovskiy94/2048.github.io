@@ -115,8 +115,6 @@ function StoreInfo(string)
 
 function UpdateReady(ResultH)
 {
-    if ( ResultH.error!=undefined )
-        alert(ResultH.error);
 }
 
 function LockGetReady(ResultH)

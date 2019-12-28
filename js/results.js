@@ -73,7 +73,7 @@ function gameOver(result, game) {
 
 
 
-var AjaxHandlerScript="http://fe.it-academy.by/AjaxStringStorage2.php";
+var AjaxHandlerScript="https://fe.it-academy.by/AjaxStringStorage2.php";
 var UpdatePassword;
 var StringName1='Max_Zeleniy';
 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2048</title>
+</head>
+<body>
+<div class="wrapper">
+<div class="container">
+    <div class="header">
+        <div class="title">2048</div>
+        <div class="count">0
+        </div>
+        <div class="record">0</div>
+    </div>
+    <div class="link_wide">
+        <div class="version" onclick="changeGame('classic')"><a>Новая игра</a></div>
+        <div class="table_record" onclick="RestoreInfo(StringName1)">Таблица рекордов</div>
+    </div>
+    <div class="link_narrow">
+        <div class="versions">
+            <div class="version"  onclick="changeGame('classic')"><a>Новая игра</a></div>
+        </div>
+    <div class="table_record" onclick="RestoreInfo(StringName1)">Таблица рекордов</div>
+    </div>
+    <div class="game_wrapper">
+
+    <div class="game_container">
+        <div class="line">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="line">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="line">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="line">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+
+
+    </div>
+        <div class="game_over "><div class="text_game_over"></div>
+            <div class="anew" onclick="newGame()">Заново</div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/moving.js"></script>
+<script type="text/javascript" src="js/results.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript" src="js/copy.js"></script>
+<script type="text/javascript" src="js/counter.js"></script>
+<script type="text/javascript" src="js/touch_event_classic.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/resize.js"></script>
+
+</body>
+</html>
